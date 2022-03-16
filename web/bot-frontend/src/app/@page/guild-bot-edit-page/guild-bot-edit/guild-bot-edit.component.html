@@ -1,0 +1,49 @@
+<div class="row justify-content-center">
+  <div class="col-lg-9">
+    <form #f="ngForm" (ngSubmit)="onSubmit()">
+
+      <p-message severity="warn" text="No channel available for bot" *ngIf="channels.length < 1"></p-message>
+
+      <!-- command prefix -->
+      <h6 class="mt-4">Prefix:</h6>
+      <input type="text" pInputText [(ngModel)]="prefix" name="prefix" #prefixField="ngModel"
+             [ngClass]="{'ng-invalid ng-dirty' : prefixField.invalid && (prefixField.dirty || prefixField.touched)}"
+             required [pattern]="noSpaceRegex" maxlength="5">
+
+      <!-- log channel -->
+      <div [ngClass]="{'p-disabled' : channels.length < 1}">
+        <h6 class="mt-4 mb-1">Enable log:</h6>
+        <p-inputSwitch [(ngModel)]="enableLog" name="enableLog" ngModel></p-inputSwitch>
+
+        <h6 class="mt-4" [ngClass]="{'p-disabled' : !enableLog}">Log channel:</h6>
+        <p-dropdown [options]="channels" [ngClass]="{'p-disabled' : !enableLog}"
+                    [(ngModel)]="selectedLogChannel" optionLabel="name"
+                    name="logChannel" ngModel>
+        </p-dropdown>
+      </div>
+
+      <!-- welcome channel -->
+      <div [ngClass]="{'p-disabled' : channels.length < 1}">
+        <h6 class="mt-4 mb-1">Enable Welcome:</h6>
+        <p-inputSwitch [(ngModel)]="enableWelcome" name="enableWelcome" ngModel></p-inputSwitch>
+
+        <h6 class="mt-4" [class]="{'p-disabled' : !enableWelcome}">Welcome channel:</h6>
+        <p-dropdown [options]="channels" [ngClass]="{'p-disabled' : !enableWelcome}"
+                    [(ngModel)]="selectedWelcomeChannel" optionLabel="name"
+                    name="welcomeChannel" ngModel>
+        </p-dropdown>
+
+        <h6 class="mt-4" [class]="{'p-disabled' : !enableWelcome}">Welcome text:</h6>
+        <input [ngClass]="{'p-disabled' : !enableWelcome}" type="text" pInputText
+               [(ngModel)]="welcomeText" name="welcomeText" ngModel>
+      </div>
+
+      <p class="mt-5">
+        <button pButton type="submit" label="Save" class="p-button-help"></button>
+      </p>
+    </form>
+  </div>
+</div>
+
+<p-toast position="bottom-center" key="bc"></p-toast>
+

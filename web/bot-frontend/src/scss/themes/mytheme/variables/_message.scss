@@ -1,0 +1,62 @@
+// Border radius of a message
+// @group message
+$messageBorderRadius: $borderRadius;
+$inlineMessageBorderRadius: $borderRadius;
+
+$messageMargin: 1rem 0;
+$messagePadding: 1.125rem 1.5rem;
+$messageBorderWidth: 0;
+$messageIconFontSize: 1.5rem;
+$messageTextFontSize: 1rem;
+$messageTextFontWeight: 500;
+
+$inlineMessagePadding: $inputPadding;
+$inlineMessageMargin: 0;
+$inlineMessageIconFontSize: 1rem;
+$inlineMessageTextFontSize: 1rem;
+$inlineMessageBorderWidth: 0;
+
+$toastIconFontSize: 1.5rem;
+$toastMessageTextMargin: 0 0 0 1rem;
+$toastMargin: 0 0 0rem 0;
+$toastPadding: 1rem;
+$toastBorderWidth: 0 0 0 4px;
+$toastShadow: 0 3px 14px 0 rgba(0, 0, 0, 0.3);
+$toastOpacity: .9;
+$toastTitleFontWeight: 700;
+$toastDetailMargin: $inlineSpacing 0 0 0;
+
+$primaryMessageBg: $fadePrimaryColor;
+$primaryMessageBorder: solid $primaryColor;
+$primaryMessageTextColor: $fadePrimaryTextColor;
+$primaryMessageIconColor: $fadePrimaryTextColor;
+
+$secondaryMessageBg: $fadeSecondaryColor;
+$secondaryMessageBorder: solid $secondaryColor;
+$secondaryMessageTextColor: $fadeSecondaryTextColor;
+$secondaryMessageIconColor: $fadeSecondaryTextColor;
+
+$successMessageBg: $fadeSuccessColor;
+$successMessageBorder: solid $fadeSuccessColor;
+$successMessageTextColor: $fadeSuccessTextColor;
+$successMessageIconColor: $fadeSuccessTextColor;
+
+$infoMessageBg: $fadeInfoColor;
+$infoMessageBorder: solid $infoColor;
+$infoMessageTextColor: $fadeInfoTextColor;
+$infoMessageIconColor: $fadeInfoTextColor;
+
+$warningMessageBg: $fadeWarningColor;
+$warningMessageBorder: solid $warningColor;
+$warningMessageTextColor: $fadeWarningTextColor;
+$warningMessageIconColor: $fadeWarningTextColor;
+
+$errorMessageBg: $fadeDangerColor;
+$errorMessageBorder: solid $dangerColor;
+$errorMessageTextColor: $fadeDangerTextColor;
+$errorMessageIconColor: $fadeDangerTextColor;
+
+$helpMessageBg: $fadeHelpColor;
+$helpMessageBorder: solid $helpColor;
+$helpMessageTextColor: $fadeHelpTextColor;
+$helpMessageIconColor: $fadeHelpTextColor;

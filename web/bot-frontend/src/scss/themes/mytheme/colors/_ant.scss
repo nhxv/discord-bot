@@ -1,0 +1,146 @@
+// Ant color system
+$white: #ffffff !default;
+$black: #000000 !default;
+
+$gray-50:  #fafafa !default;
+$gray-100: #f5f5f5 !default;
+$gray-200: #f0f0f0 !default;
+$gray-300: #d9d9d9 !default;
+$gray-400: #bfbfbf !default;
+$gray-500: #8c8c8c !default;
+$gray-600: #595959 !default;
+$gray-700: #434343 !default;
+$gray-800: #262626 !default;
+$gray-900: #1f1f1f !default;
+
+$red-50:  #fff1f0 !default;
+$red-100: #ffccc7 !default;
+$red-200: #ffa39e !default;
+$red-300: #ff7875 !default;
+$red-400: #ff4d4f !default;
+$red-500: #f5222d !default;
+$red-600: #cf1322 !default;
+$red-700: #a8071a !default;
+$red-800: #820014 !default;
+$red-900: #5c0011 !default;
+
+$volcano-50:  #fff2e8 !default;
+$volcano-100: #ffd8bf !default;
+$volcano-200: #ffbb96 !default;
+$volcano-300: #ff9c6e !default;
+$volcano-400: #ff7a45 !default;
+$volcano-500: #fa541c !default;
+$volcano-600: #d4380d !default;
+$volcano-700: #ad2102 !default;
+$volcano-800: #871400 !default;
+$volcano-900: #610b00 !default;
+
+$orange-50:  #fff7e6 !default;
+$orange-100: #ffe7ba !default;
+$orange-200: #ffd591 !default;
+$orange-300: #ffc069 !default;
+$orange-400: #ffa940 !default;
+$orange-500: #fa8c16 !default;
+$orange-600: #d46b08 !default;
+$orange-700: #ad4e00 !default;
+$orange-800: #873800 !default;
+$orange-900: #612500 !default;
+
+$gold-50:  #fffbe6 !default;
+$gold-100: #fff1b8 !default;
+$gold-200: #ffe58f !default;
+$gold-300: #ffd666 !default;
+$gold-400: #ffc53d !default;
+$gold-500: #faad14 !default;
+$gold-600: #d48806 !default;
+$gold-700: #ad6800 !default;
+$gold-800: #874d00 !default;
+$gold-900: #613400 !default;
+
+$yellow-50:  #feffe6 !default;
+$yellow-100: #ffffb8 !default;
+$yellow-200: #fffb8f !default;
+$yellow-300: #fff566 !default;
+$yellow-400: #ffec3d !default;
+$yellow-500: #fadb14 !default;
+$yellow-600: #d4b106 !default;
+$yellow-700: #ad8b00 !default;
+$yellow-800: #876800 !default;
+$yellow-900: #614700 !default;
+
+$lime-50:  #fcffe6 !default;
+$lime-100: #f4ffb8 !default;
+$lime-200: #eaff8f !default;
+$lime-300: #d3f261 !default;
+$lime-400: #bae637 !default;
+$lime-500: #a0d911 !default;
+$lime-600: #7cb305 !default;
+$lime-700: #5b8c00 !default;
+$lime-800: #3f6600 !default;
+$lime-900: #254000 !default;
+
+$green-50:  #f6ffed !default;
+$green-100: #d9f7be !default;
+$green-200: #b7eb8f !default;
+$green-300: #95de64 !default;
+$green-400: #73d13d !default;
+$green-500: #52c41a !default;
+$green-600: #389e0d !default;
+$green-700: #237804 !default;
+$green-800: #135200 !default;
+$green-900: #092b00 !default;
+
+$cyan-50:  #e6fffb  !default;
+$cyan-100: #b5f5ec !default;
+$cyan-200: #87e8de !default;
+$cyan-300: #5cdbd3 !default;
+$cyan-400: #36cfc9 !default;
+$cyan-500: #13c2c2 !default;
+$cyan-600: #08979c !default;
+$cyan-700: #006d75 !default;
+$cyan-800: #00474f !default;
+$cyan-900: #002329 !default;
+
+$blue-50:  #e6f7ff !default;
+$blue-100: #bae7ff !default;
+$blue-200: #91d5ff !default;
+$blue-300: #69c0ff !default;
+$blue-400: #40a9ff !default;
+$blue-500: #1890ff !default;
+$blue-600: #096dd9 !default;
+$blue-700: #0050b3 !default;
+$blue-800: #003a8c !default;
+$blue-900: #002766 !default;
+
+$geek-blue-50:  #f0f5ff !default;
+$geek-blue-100: #d6e4ff !default;
+$geek-blue-200: #adc6ff !default;
+$geek-blue-300: #85a5ff !default;
+$geek-blue-400: #597ef7 !default;
+$geek-blue-500: #2f54eb !default;
+$geek-blue-600: #1d39c4 !default;
+$geek-blue-700: #10239e !default;
+$geek-blue-800: #061178 !default;
+$geek-blue-900: #030852 !default;
+
+$purple-50:  #f9f0ff !default;
+$purple-100: #efdbff !default;
+$purple-200: #d3adf7 !default;
+$purple-300: #b37feb !default;
+$purple-400: #9254de !default;
+$purple-500: #722ed1 !default;
+$purple-600: #531dab !default;
+$purple-700: #391085 !default;
+$purple-800: #22075e !default;
+$purple-900: #120338 !default;
+
+$magenta-50:  #fff0f6 !default;
+$magenta-100: #ffd6e7 !default;
+$magenta-200: #ffadd2 !default;
+$magenta-300: #ff85c0 !default;
+$magenta-400: #f759ab !default;
+$magenta-500: #eb2f96 !default;
+$magenta-600: #c41d7f !default;
+$magenta-700: #9e1068 !default;
+$magenta-800: #780650 !default;
+$magenta-900: #520339 !default;

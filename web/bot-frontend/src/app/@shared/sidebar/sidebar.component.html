@@ -1,0 +1,50 @@
+<a class="d-flex align-items-center mb-lg-3 me-md-auto">
+  <span class="ml-3 d-none d-lg-inline"><h4>Logo</h4></span>
+</a>
+<ul class="nav flex-column mb-auto">
+  <li class="nav-link text-center mb-2 text-lg-left tooltip" routerLink="home" routerLinkActive="nav-active">
+    <a class="nav-item d-flex flex-column d-lg-block">
+      <i class="pi pi-home"></i>
+      <span class="ml-2 d-lg-inline d-none">Home</span>
+    </a>
+    <span class="tooltiptext d-lg-none">Home</span>
+  </li>
+
+  <li class="nav-link text-center mb-2 text-lg-left tooltip">
+    <a class="nav-item d-flex flex-column d-lg-block">
+      <i class="pi pi-book"></i>
+      <span class="ml-2 d-lg-inline d-none">Docs</span>
+    </a>
+    <span class="tooltiptext d-lg-none">Docs</span>
+  </li>
+
+  <li class="nav-link text-center mb-2 text-lg-left tooltip"
+      routerLink="profile" routerLinkActive="nav-active" *ngIf="isLoggedIn$ | async">
+    <a class="nav-item d-flex flex-column d-lg-block">
+      <i class="pi pi-user"></i>
+      <span class="ml-2 d-lg-inline d-none">{{getUsername()}}</span>
+    </a>
+    <span class="tooltiptext d-lg-none">{{getUsername()}}</span>
+  </li>
+</ul>
+
+<div class="nav flex-column">
+  <li class="nav-link text-center mb-2 text-lg-left tooltip"
+      routerLink="login" routerLinkActive="nav-active" *ngIf="!(isLoggedIn$ | async)">
+    <a class="nav-item d-flex flex-column d-lg-block">
+      <i class="pi pi-sign-in"></i>
+      <span class="ml-2 d-lg-inline d-none">Sign in</span>
+    </a>
+    <span class="tooltiptext d-lg-none">Sign in</span>
+  </li>
+
+  <li class="nav-link text-center mb-2 text-lg-left tooltip" *ngIf="isLoggedIn$ | async" (click)="onSignOut()">
+    <a class="nav-item d-flex flex-column d-lg-block">
+      <i class="pi pi-sign-out"></i>
+      <span class="ml-2 d-lg-inline d-none">Sign out</span>
+    </a>
+    <span class="tooltiptext d-lg-none">Sign out</span>
+  </li>
+</div>
+
+

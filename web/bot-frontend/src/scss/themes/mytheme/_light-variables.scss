@@ -1,0 +1,113 @@
+/*
+General component attributes
+*/
+
+// Global
+$bodyColor: $white;
+$bgHoverColor: $gray-100;
+$borderColor: $gray-300;
+$borderHoverColor: $gray-500;
+$textColor: $gray-900;
+$borderRadius: .375rem;
+$boxShadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); // shadow-sm
+
+// Forms
+$placeholderColor: $gray-400;
+$switchBg: $gray-300;
+$switchBgHover: $gray-400;
+
+// Cards & Panel
+$cardBg: $white;
+
+/*
+  App light theme colors: Primary, Secondary, Info, Warning, Help, Danger
+  Fade attributes will be used to style: Outline, Fade, Text buttons and Messages
+*/
+
+// Primary
+$fadePrimaryColor: $indigo-100;
+$fadePrimaryHoverColor: $indigo-200;
+$fadePrimaryActiveColor: $indigo-300;
+$fadePrimaryTextColor: $indigo-500;
+
+$primaryColor: $indigo-500;
+$primaryHoverColor: $indigo-600;
+$primaryActiveColor: $indigo-700;
+$primaryTextColor: $white;
+
+// Success
+$fadeSuccessColor: $green-100;
+$fadeSuccessHoverColor: $green-200;
+$fadeSuccessActiveColor: $green-300;
+$fadeSuccessTextColor: $green-500;
+
+$successColor: $green-500;
+$successHoverColor: $green-600;
+$successActiveColor: $green-700;
+$successTextColor: $white;
+
+// Info
+$fadeInfoColor: $cyan-100;
+$fadeInfoHoverColor: $cyan-200;
+$fadeInfoActiveColor: $cyan-300;
+$fadeInfoTextColor: $cyan-500;
+
+$infoColor: $cyan-500;
+$infoHoverColor: $cyan-600;
+$infoActiveColor: $cyan-700;
+$infoTextColor: $white;
+
+// Warning
+$fadeWarningColor: $amber-100;
+$fadeWarningHoverColor: $amber-200;
+$fadeWarningActiveColor: $amber-300;
+$fadeWarningTextColor: $amber-500;
+
+$warningColor: $amber-500;
+$warningHoverColor: $amber-600;
+$warningActiveColor: $amber-700;
+$warningTextColor: $black;
+
+// Help
+$fadeHelpColor: $pink-100;
+$fadeHelpHoverColor: $pink-200;
+$fadeHelpActiveColor: $pink-300;
+$fadeHelpTextColor: $pink-500;
+
+$helpColor: $pink-500;
+$helpHoverColor: $pink-600;
+$helpActiveColor: $pink-700;
+$helpTextColor: $white;
+
+// Danger
+$fadeDangerColor: $red-100;
+$fadeDangerHoverColor: $red-200;
+$fadeDangerActiveColor: $red-300;
+$fadeDangerTextColor: $red-500;
+
+$dangerColor: $red-500;
+$dangerHoverColor: $red-600;
+$dangerActiveColor: $red-700;
+$dangerTextColor: $white;
+
+// Secondary
+$fadeSecondaryColor: $gray-100;
+$fadeSecondaryHoverColor: $gray-200;
+$fadeSecondaryActiveColor: $gray-300;
+$fadeSecondaryTextColor: $gray-500;
+
+$secondaryColor: $gray-900;
+$secondaryHoverColor: $gray-700;
+$secondaryActiveColor: $gray-800;
+$secondaryTextColor: $white;
+
+// Menu
+$navBg: $gray-900;
+$navHoverBg: $gray-700;
+$navActiveBg: $primaryColor;
+$navActiveHoverBg: $primaryHoverColor;
+
+$navTextColor: $white;
+$navTextHover: $white;
+$navTextActive: $white; // on desktop
+$navTextActiveHover: $navTextActive;

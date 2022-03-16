@@ -1,0 +1,114 @@
+/* CUSTOMIZE COLOR SCHEME AND COMPONENT BORDER RADIUS HERE */
+
+// For more detailed customization, go to mytheme/variables/<component-name>.scss
+
+/* General attributes */
+$bodyColor: $gray-800;
+$bgHoverColor: $gray-800;
+$borderColor: $gray-500;
+$borderHoverColor: $gray-400;
+$textColor: $gray-200;
+$borderRadius: .375rem;
+$boxShadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+/* Forms */
+$placeholderColor: $gray-500;
+$inputBg: $gray-900;
+$switchBg: $gray-600;
+$switchBgHover: $gray-700;
+
+/* Cards & Panel */
+$cardBg: $gray-900;
+
+/* App colors */
+// Primary
+$fadePrimaryColor: $gray-800;
+$fadePrimaryHoverColor: $gray-700;
+$fadePrimaryActiveColor: $gray-600;
+$fadePrimaryTextColor: $indigo-500;
+
+$primaryColor: $indigo-500;
+$primaryHoverColor: $indigo-600;
+$primaryActiveColor: $indigo-700;
+$primaryTextColor: $gray-200;
+
+// Success
+$fadeSuccessColor: $gray-800;
+$fadeSuccessHoverColor: $gray-700;
+$fadeSuccessActiveColor: $gray-600;
+$fadeSuccessTextColor: $emerald-500;
+
+$successColor: $emerald-500;
+$successHoverColor: $emerald-600;
+$successActiveColor: $emerald-700;
+$successTextColor: $gray-200;
+
+// Info
+$fadeInfoColor: $gray-800;
+$fadeInfoHoverColor: $gray-700;
+$fadeInfoActiveColor: $gray-600;
+$fadeInfoTextColor: $cyan-500;
+
+$infoColor: $cyan-500;
+$infoHoverColor: $cyan-600;
+$infoActiveColor: $cyan-700;
+$infoTextColor: $gray-200;
+
+// Warning
+$fadeWarningColor: $gray-800;
+$fadeWarningHoverColor: $gray-700;
+$fadeWarningActiveColor: $gray-600;
+$fadeWarningTextColor: $amber-500;
+
+$warningColor: $amber-500;
+$warningHoverColor: $amber-600;
+$warningActiveColor: $amber-700;
+$warningTextColor: $black;
+
+// Help
+$fadeHelpColor: $gray-800;
+$fadeHelpHoverColor: $gray-700;
+$fadeHelpActiveColor: $gray-600;
+$fadeHelpTextColor: $gray-100;
+
+$helpColor: $gray-100;
+$helpHoverColor: $gray-200;
+$helpActiveColor: $gray-300;
+$helpTextColor: $gray-900;
+
+// Danger
+$fadeDangerColor: $gray-800;
+$fadeDangerHoverColor: $gray-700;
+$fadeDangerActiveColor: $gray-600;
+$fadeDangerTextColor: $red-500;
+
+$dangerColor: $red-500;
+$dangerHoverColor: $red-600;
+$dangerActiveColor: $red-700;
+$dangerTextColor: $gray-200;
+
+// Secondary
+$fadeSecondaryColor: $gray-800;
+$fadeSecondaryHoverColor: $gray-700;
+$fadeSecondaryActiveColor: $gray-600;
+$fadeSecondaryTextColor: $gray-200;
+
+$secondaryColor: $gray-600;
+$secondaryHoverColor: $gray-700;
+$secondaryActiveColor: $gray-800;
+$secondaryTextColor: $gray-200;
+
+/* Menu */
+$navBg: $gray-900;
+$navHoverBg: $gray-700;
+$navActiveBg: $primaryColor;
+$navActiveHoverBg: $primaryHoverColor;
+
+$navTextColor: $textColor;
+$navTextHover: $white;
+$navTextActive: $primaryTextColor; // on desktop
+$navTextActiveHover: $navTextActive;
+
+:root {
+  color-scheme: dark;
+}

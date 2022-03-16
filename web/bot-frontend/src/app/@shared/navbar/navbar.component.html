@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg mb-4">
+  <a class="navbar-brand" id="logo">Logo</a>
+  <button class="navbar-toggler border-none" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" (click)="onMenu()">
+    <span><i class="pi pi-bars" *ngIf="!isOpen"></i></span>
+    <span><i class="pi pi-times" *ngIf="isOpen"></i></span>
+  </button>
+  <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home" routerLinkActive="nav-active"><i class="pi pi-home mr-2"></i>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><i class="pi pi-paperclip mr-2"></i>Docs</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" *ngIf="!(isLogin$ | async)">
+        <a class="nav-link" (click)="onLogin()"><i class="pi pi-discord mr-2"></i>Login</a>
+      </li>
+      <li class="nav-item" *ngIf="isLogin$ | async">
+        <a class="nav-link" routerLink="profile" routerLinkActive="nav-active">
+          <img src="{{getUserAvatar()}}" class="img-fluid rounded-circle mr-1" alt="avatar" width="20" height="20">
+          <span>
+            {{getUsername()}}
+          </span>
+        </a>
+      </li>
+      <li class="nav-item" *ngIf="isLogin$ | async">
+        <a class="nav-link" (click)="onSignOut()">Sign out</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+

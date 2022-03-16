@@ -1,0 +1,55 @@
+/// Padding of an inplace element
+/// @group misc
+$inplacePadding: $inputPadding;
+
+/// Background of an inplace element in hover state
+/// @group misc
+$inplaceHoverBg: #e9ecef;
+
+/// Text color of an inplace element in hover state
+/// @group misc
+$inplaceTextHoverColor: $textColor;
+
+/// Background of a badge
+/// @group misc
+$badgeBg: $primaryColor;
+
+/// Text color of a badge
+/// @group misc
+$badgeTextColor: $primaryTextColor;
+
+/// Minimum width of a badge
+/// @group misc
+$badgeMinWidth: 1.5rem;
+
+/// Height of a badge
+/// @group misc
+$badgeHeight: 1.5rem;
+
+/// Font weight of a badge
+/// @group misc
+$badgeFontWeight: 700;
+
+/// Font size of a badge
+/// @group misc
+$badgeFontSize: .75rem;
+
+/// Padding of a badge
+/// @group misc
+$tagPadding: .25rem .4rem;
+
+/// Height of a progress bar
+/// @group misc
+$progressBarHeight: 1.5rem;
+
+/// Border of a progress bar
+/// @group misc
+$progressBarBorder: 0 none;
+
+/// Background of a progress bar
+/// @group misc
+$progressBarBg: #dee2e6;
+
+/// Background of a progress bar value
+/// @group misc
+$progressBarValueBg: $primaryColor;

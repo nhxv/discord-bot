@@ -1,0 +1,24 @@
+/* Prime 11 */
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/primeng.min.css';
+@import 'scss/themes/mytheme/theme.scss'; // customize prime here
+
+/* Bootstrap 4.6 */
+@import '~bootstrap/scss/functions';
+@import 'scss/themes/mytheme/bootstrap/_variables.scss'; // customize bootstrap var here
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import "~bootstrap/scss/root";
+
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/grid";
+
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/transitions";
+
+/* My Theme Extensions */
+@import 'scss/themes/mytheme/extensions/_extensions'; // additional styling

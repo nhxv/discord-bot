@@ -1,0 +1,10 @@
+<div class="mt-5">
+  <div class="text-center" *ngIf="(isLogin$ | async)">
+    <p-message severity="success" text="Login success"></p-message>
+  </div>
+
+  <div class="text-center" *ngIf="errorMessage">
+    <p-message severity="danger" text="{{errorMessage}}"></p-message>
+  </div>
+</div>
+

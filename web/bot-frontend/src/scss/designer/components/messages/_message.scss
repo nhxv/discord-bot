@@ -1,0 +1,147 @@
+.p-message {
+    margin: $messageMargin;
+    border-radius: $messageBorderRadius;
+
+    .p-message-wrapper {
+        padding: $messagePadding;
+    }
+
+    .p-message-close {
+        width: $actionIconWidth;
+        height: $actionIconHeight;
+        border-radius: $actionIconBorderRadius;
+        background: transparent;
+        transition: $actionIconTransition;
+
+        &:hover {
+            background: $fadeSecondaryHoverColor;
+        }
+
+        &:focus {
+            @include focused();
+        }
+    }
+
+    &.p-message-primary {
+      background: $primaryMessageBg;
+      border: $primaryMessageBorder;
+      border-width: $messageBorderWidth;
+      color: $primaryMessageTextColor;
+
+      .p-message-icon {
+        color: $primaryMessageIconColor;
+      }
+
+      .p-message-close {
+        color: $primaryMessageIconColor;
+      }
+    }
+
+    &.p-message-secondary {
+      background: $secondaryMessageBg;
+      border: $secondaryMessageBorder;
+      border-width: $messageBorderWidth;
+      color: $secondaryMessageTextColor;
+
+      .p-message-icon {
+        color: $secondaryMessageIconColor;
+      }
+
+      .p-message-close {
+        color: $secondaryMessageIconColor;
+      }
+    }
+
+    &.p-message-info {
+        background: $infoMessageBg;
+        border: $infoMessageBorder;
+        border-width: $messageBorderWidth;
+        color: $infoMessageTextColor;
+
+        .p-message-icon {
+            color: $infoMessageIconColor;
+        }
+
+        .p-message-close {
+            color: $infoMessageIconColor;
+        }
+    }
+
+    &.p-message-success {
+        background: $successMessageBg;
+        border: $successMessageBorder;
+        border-width: $messageBorderWidth;
+        color: $successMessageTextColor;
+
+        .p-message-icon {
+            color: $successMessageIconColor;
+        }
+
+        .p-message-close {
+            color: $successMessageIconColor;
+        }
+    }
+
+    &.p-message-warn {
+        background: $warningMessageBg;
+        border: $warningMessageBorder;
+        border-width: $messageBorderWidth;
+        color: $warningMessageTextColor;
+
+        .p-message-icon {
+            color: $warningMessageIconColor;
+        }
+
+        .p-message-close {
+            color: $warningMessageIconColor;
+        }
+    }
+
+    &.p-message-help {
+      background: $helpMessageBg;
+      border: $helpMessageBorder;
+      border-width: $messageBorderWidth;
+      color: $helpMessageTextColor;
+
+      .p-message-icon {
+        color: $helpMessageIconColor;
+      }
+
+      .p-message-close {
+        color: $helpMessageIconColor;
+      }
+    }
+
+    &.p-message-error {
+        background: $errorMessageBg;
+        border: $errorMessageBorder;
+        border-width: $messageBorderWidth;
+        color: $errorMessageTextColor;
+
+        .p-message-icon {
+            color: $errorMessageIconColor;
+        }
+
+        .p-message-close {
+            color: $errorMessageIconColor;
+        }
+    }
+
+    .p-message-text {
+        font-size: $messageTextFontSize;
+        font-weight: $messageTextFontWeight;
+    }
+
+    .p-message-icon {
+        font-size: $messageIconFontSize;
+        margin-right: $inlineSpacing;
+    }
+
+    .p-message-summary {
+        font-weight: 700;
+    }
+
+    .p-message-detail {
+        margin-left: $inlineSpacing;
+    }
+}
